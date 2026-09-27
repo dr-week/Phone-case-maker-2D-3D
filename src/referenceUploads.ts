@@ -1,0 +1,6 @@
+const BRIDGE='http://127.0.0.1:3000';
+export type UploadedReference={id:string;name:string;path:string};
+export type Inspection={engine:string;sheetType:string;views:{kind:string;bounds:{x:number;y:number;width:number;height:number};profile?:{estimatedCameraProtrusionMm:number}}[];warnings:string[]};
+const asBase64=(file:File)=>new Promise<string>((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(String(reader.result).split(',')[1]??'');reader.onerror=()=>reject(reader.error);reader.readAsDataURL(file);});
+export async function uploadReference(file:File):Promise<UploadedReference>{const response=await fetch(`${BRIDGE}/api/reference/upload`,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({name:file.name,mime:file.type,data:await asBase64(file)})});const result=await response.json();if(!response.ok)throw new Error(result.error||'Upload failed');return result;}
+export async function inspectReference(path:string):Promise<Inspection>{const response=await fetch(`${BRIDGE}/api/reference/inspect`,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({path,depthMm:7.6})});const result=await response.json();if(!response.ok)throw new Error(result.error||'Inspection failed');return result;}

@@ -1,0 +1,26 @@
+{
+  "name": "caseforge",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "tsc -b && vite build"
+  },
+  "dependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-react": "latest",
+    "lucide-react": "^1.48.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "three": "^0.186.0",
+    "typescript": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "zustand": "^5.0.15"
+  }
+}

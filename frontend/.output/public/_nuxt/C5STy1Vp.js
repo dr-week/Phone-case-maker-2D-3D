@@ -1,0 +1,1 @@
+var e={};function t(t=`pui_id_`){return Object.hasOwn(e,t)||(e[t]=0),e[t]++,`${t}${e[t]}`}export{t};

@@ -1,0 +1,2 @@
+<script setup lang="ts">import { SUPPORTED_MODELS } from '~/data/models'; const model = defineModel<string>({ required: true });</script>
+<template><div class="control"><label for="device">Device model</label><Select id="device" v-model="model" :options="Object.entries(SUPPORTED_MODELS).map(([value, item]) => ({ value, label: item.name }))" option-label="label" option-value="value" fluid /></div></template>

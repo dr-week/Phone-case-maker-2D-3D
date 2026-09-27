@@ -1,0 +1,9 @@
+{
+  "pid": 42624,
+  "startedAt": 1789971488159,
+  "command": "dev",
+  "cwd": "C:/Users/disha/Documents/CODES/studio/PHONEcase/frontend",
+  "port": 5174,
+  "hostname": "::1",
+  "url": "http://[::1]:5174"
+}

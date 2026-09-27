@@ -1,0 +1,20 @@
+{
+  "device": "Samsung Galaxy A73 5G",
+  "model": "SM-A736B",
+  "officialBodyMm": { "height": 163.7, "width": 76.1, "depth": 7.6 },
+  "source": {
+    "page": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a73-5g-awesomegray-128gb-sm-a736bzagphl/",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/ph/sm-a736bzagphl/gallery/ph-galaxy-a73-5g-a736-sm-a736bzagphl-thumb-531867934",
+    "local": "source/gray-product.png",
+    "canvasPixels": [1200, 1200],
+    "transparentSubjectBounds": { "x": 478, "y": 443, "width": 245, "height": 314 }
+  },
+  "measurement": {
+    "referencePhoneHeightPixels": 314,
+    "approximateMmPerPixel": 0.5213,
+    "estimatedCameraIslandMm": { "width": 35.0, "height": 43.0 },
+    "unverifiedCameraFields": ["left offset", "top offset", "corner radius", "protrusion", "lens centers", "lens diameters"],
+    "confidence": "reference-only",
+    "reason": "The official marketing image contains overlapping front/back renders and is not a dimensioned mechanical drawing."
+  }
+}

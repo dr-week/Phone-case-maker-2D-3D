@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "device": {
+    "model": "Samsung Galaxy A73 5G",
+    "modelNumber": "SM-A736B",
+    "widthMm": 76.1,
+    "heightMm": 163.7,
+    "bodyThicknessMm": 7.6,
+    "source": "Samsung published specifications"
+  },
+  "engine": "opencv-5.0.0",
+  "summary": {
+    "total": 3,
+    "accepted": 2,
+    "rejected": 1,
+    "detectedViews": [
+      "back",
+      "front",
+      "side"
+    ]
+  },
+  "geometry": {
+    "body": {
+      "widthMm": 76.1,
+      "heightMm": 163.7,
+      "thicknessMm": 7.6,
+      "classification": "confirmed"
+    },
+    "cameraIsland": {
+      "widthMm": 33.2,
+      "heightMm": 48.2,
+      "leftMm": 1.8,
+      "topMm": 2.3,
+      "cornerRadiusMm": 5.5,
+      "lenses": [
+        {
+          "role": "main",
+          "xMm": 14.2,
+          "yMm": 14,
+          "radiusMm": 3
+        },
+        {
+          "role": "ultrawide",
+          "xMm": 14.2,
+          "yMm": 27.5,
+          "radiusMm": 3
+        },
+        {
+          "role": "depth",
+          "xMm": 14.2,
+          "yMm": 41.4,
+          "radiusMm": 3.5
+        },
+        {
+          "role": "macro",
+          "xMm": 25.8,
+          "yMm": 20.3,
+          "radiusMm": 2.15
+        }
+      ],
+      "flash": {
+        "xMm": 25.8,
+        "yMm": 33.3,
+        "radiusMm": 1.8
+      },
+      "classification": "image-derived",
+      "source": "rectified rear reference overlay",
+      "confidence": 0.67
+    },
+    "cameraProtrusion": {
+      "valueMm": 1.2,
+      "classification": "image-derived",
+      "sampleCount": 1
+    },
+    "maximumThicknessMm": 8.8
+  },
+  "reports": [
+    {
+      "id": "rear-gray",
+      "color": "gray",
+      "accepted": true,
+      "expected": [
+        "back"
+      ],
+      "detected": [
+        "back"
+      ],
+      "sheetType": "single-face-or-overlap",
+      "engine": "opencv-5.0.0",
+      "method": "connected-components-and-profile-v1",
+      "warnings": [],
+      "views": [
+        {
+          "kind": "back",
+          "bounds": {
+            "x": 172,
+            "y": 76,
+            "width": 172,
+            "height": 366
+          },
+          "aspect": 0.4699,
+          "areaFraction": 0.2334,
+          "circleCandidates": [
+            {
+              "x": 233,
+              "y": 170,
+              "radius": 18
+            },
+            {
+              "x": 204,
+              "y": 137,
+              "radius": 12
+            },
+            {
+              "x": 201,
+              "y": 103,
+              "radius": 15
+            },
+            {
+              "x": 188,
+              "y": 91,
+              "radius": 14
+            },
+            {
+              "x": 195,
+              "y": 125,
+              "radius": 18
+            },
+            {
+              "x": 200,
+              "y": 171,
+              "radius": 12
+            },
+            {
+              "x": 231,
+              "y": 122,
+              "radius": 7
+            },
+            {
+              "x": 230,
+              "y": 153,
+              "radius": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "front-side",
+      "color": "gray",
+      "accepted": true,
+      "expected": [
+        "front",
+        "side"
+      ],
+      "detected": [
+        "front",
+        "side"
+      ],
+      "sheetType": "face-and-side",
+      "engine": "opencv-5.0.0",
+      "method": "connected-components-and-profile-v1",
+      "warnings": [],
+      "views": [
+        {
+          "kind": "front",
+          "bounds": {
+            "x": 118,
+            "y": 49,
+            "width": 175,
+            "height": 367
+          },
+          "aspect": 0.4768,
+          "areaFraction": 0.2681,
+          "circleCandidates": [
+            {
+              "x": 277,
+              "y": 62,
+              "radius": 10
+            },
+            {
+              "x": 147,
+              "y": 170,
+              "radius": 18
+            },
+            {
+              "x": 260,
+              "y": 144,
+              "radius": 18
+            },
+            {
+              "x": 133,
+              "y": 64,
+              "radius": 13
+            },
+            {
+              "x": 204,
+              "y": 66,
+              "radius": 5
+            },
+            {
+              "x": 258,
+              "y": 170,
+              "radius": 12
+            },
+            {
+              "x": 209,
+              "y": 185,
+              "radius": 7
+            },
+            {
+              "x": 265,
+              "y": 70,
+              "radius": 9
+            },
+            {
+              "x": 269,
+              "y": 158,
+              "radius": 9
+            }
+          ]
+        },
+        {
+          "kind": "side",
+          "bounds": {
+            "x": 347,
+            "y": 48,
+            "width": 26,
+            "height": 368
+          },
+          "aspect": 0.0707,
+          "areaFraction": 0.0364,
+          "profile": {
+            "bodyThicknessPixels": 19,
+            "maximumUpperThicknessPixels": 22,
+            "mmPerPixel": 0.4,
+            "estimatedCameraProtrusionMm": 1.2,
+            "classification": "image-derived",
+            "requiresOverlayReview": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "marketing-composite",
+      "purpose": "rejection-control",
+      "accepted": false,
+      "expected": [],
+      "detected": [],
+      "sheetType": "unresolved",
+      "engine": "opencv-5.0.0",
+      "method": "connected-components-and-profile-v1",
+      "warnings": [],
+      "views": []
+    }
+  ],
+  "generationPolicy": {
+    "prototypeAllowed": true,
+    "printReady": false,
+    "reason": "Camera depth and side features remain image-derived; physical fit validation is required."
+  }
+}

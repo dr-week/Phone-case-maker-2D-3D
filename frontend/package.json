@@ -1,0 +1,1 @@
+{"name":"caseforge-frontend","private":true,"type":"module","scripts":{"dev":"nuxt dev","build":"nuxt build","typecheck":"nuxt typecheck"},"dependencies":{"nuxt":"^4.5.2","vue":"^3.5.43","primevue":"4.5.4","@primevue/nuxt-module":"4.5.4","@primevue/themes":"4.5.4"},"devDependencies":{"typescript":"^5.8.3","vue-tsc":"^2.2.10"}}

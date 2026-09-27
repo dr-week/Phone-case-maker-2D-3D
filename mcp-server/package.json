@@ -1,0 +1,1 @@
+{"name":"caseforge-mcp","private":true,"type":"module","scripts":{"build":"tsc","http":"node dist/http-bridge.js","test":"npm run build && node --test dist/reference/*.test.js"},"dependencies":{"@modelcontextprotocol/sdk":"latest","sharp":"^0.35.4"},"devDependencies":{"@types/node":"latest","typescript":"latest"}}

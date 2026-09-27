@@ -1,0 +1,32 @@
+{
+  "name": "caseforge-frontend-prod",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@babel/parser": "7.29.9",
+    "@primeuix/styled": "0.7.4",
+    "@primeuix/styles": "2.0.3",
+    "@primeuix/utils": "0.6.4",
+    "@primevue/core": "4.5.4",
+    "@primevue/forms": "4.5.4",
+    "@vue/compiler-core": "3.5.43",
+    "@vue/compiler-dom": "3.5.43",
+    "@vue/compiler-ssr": "3.5.43",
+    "@vue/reactivity": "3.5.43",
+    "@vue/runtime-core": "3.5.43",
+    "@vue/runtime-dom": "3.5.43",
+    "@vue/server-renderer": "3.5.43",
+    "@vue/shared": "3.5.43",
+    "devalue": "5.9.4",
+    "entities": "7.0.1",
+    "estree-walker": "2.0.2",
+    "hookable": "6.1.2",
+    "nostics": "1.2.0",
+    "source-map-js": "1.2.1",
+    "ufo": "1.6.4",
+    "unhead": "3.4.1",
+    "vue": "3.5.43",
+    "vue-bundle-renderer": "2.4.0"
+  }
+}

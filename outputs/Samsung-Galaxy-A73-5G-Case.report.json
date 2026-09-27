@@ -1,0 +1,18 @@
+{
+  "blendFile": "C:\\Users\\disha\\Documents\\CODES\\studio\\PHONEcase\\outputs\\Samsung-Galaxy-A73-5G-Case.blend",
+  "device": "Samsung Galaxy A73 5G",
+  "objects": 5,
+  "shellVertices": 300,
+  "outerDimensionsMm": [
+    80.0,
+    167.6,
+    9.55
+  ],
+  "cameraIslandMm": [
+    33.2,
+    48.2
+  ],
+  "cameraProtrusionMm": 1.2,
+  "measurementClass": "image-derived",
+  "manifold": true
+}

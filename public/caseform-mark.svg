@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="CaseForm">
+  <g fill="#fff">
+    <path id="blade" d="M50 50C42.5 44.2 38.5 34.3 40.7 25.1C43.7 12.8 54.8 5.5 66.7 7.6C75.4 9.1 82.1 14.8 85.7 22.2C70.8 18.5 57.2 24.2 50.4 35.5C46.9 41.2 46.6 46.3 50 50Z"/>
+    <use href="#blade" transform="rotate(72 50 50)"/>
+    <use href="#blade" transform="rotate(144 50 50)"/>
+    <use href="#blade" transform="rotate(216 50 50)"/>
+    <use href="#blade" transform="rotate(288 50 50)"/>
+  </g>
+</svg>
